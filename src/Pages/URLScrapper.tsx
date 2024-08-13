@@ -9,7 +9,7 @@ const URLScrapper = () => {
     try {
       console.log(url);
 
-      const data = await urlMetadata("http://127.0.0.1:5173");
+      const data = await urlMetadata(url);
       console.log(data, "hi2");
 
       if (data.image) {
