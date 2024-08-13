@@ -9,7 +9,7 @@ const URLScrapper = () => {
     try {
       console.log(url);
 
-      const data = await urlMetadata(url);
+      const data = await urlMetadata(url, {mode: "no-cors"});
       console.log(data, "hi2");
 
       if (data.image) {
