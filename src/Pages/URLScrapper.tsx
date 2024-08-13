@@ -20,7 +20,7 @@ const URLScrapper = () => {
         cache: 'no-cache',
       
         // `fetch` API mode (ex: 'cors', 'no-cors', 'same-origin', etc)
-        mode: 'cors',
+        mode: 'no-cors',
       
         // charset to decode response with (ex: 'auto', 'utf-8', 'EUC-JP')
         // defaults to auto-detect in `Content-Type` header or meta tag
